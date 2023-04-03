@@ -1,3 +1,18 @@
 {
-    "key.remap-f3.debug": "Debug Key"
+    "key.categories.remapF3.debug":          "Debug",
+    "key.remapF3.debug.master":              "Master Debug Key",
+    "key.remapF3.debug.reloadChunks":        "Reload Chunks",
+    "key.remapF3.debug.showHitboxes":        "Show Hitboxes",
+    "key.remapF3.debug.clearChat":           "Clear Chat",
+    "key.remapF3.debug.showChunkBounds":     "Show Chunk Boundaries",
+    "key.remapF3.debug.advancedTooltips":    "Toggle Advanced Tooltips",
+    "key.remapF3.debug.copyBlock":           "Copy Block to Clipboard",
+    "key.remapF3.debug.spectator":           "Toggle Spectator Mode",
+    "key.remapF3.debug.cycleGamemode":       "Cycle Gamemode",
+    "key.remapF3.debug.pauseOnLostFocus":    "Toggle Pause on Lost Focus",
+    "key.remapF3.debug.help":                "Print Debug Help",
+    "key.remapF3.debug.dumpDynamicTextures": "Dump Dynamic Textures",
+    "key.remapF3.debug.reloadResources":     "Reload Resources",
+    "key.remapF3.debug.toggleProfiling":     "Toggle Profiling",
+    "key.remapF3.debug.copyLocation":        "Copy Location to Clipboard"
 }

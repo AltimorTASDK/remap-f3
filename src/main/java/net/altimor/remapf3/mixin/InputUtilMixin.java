@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 public class InputUtilMixin {
 	@Inject(method = "isKeyPressed", at = @At("HEAD"), cancellable = true)
 	private static void isKeyPressed(long handle, int code, CallbackInfoReturnable<Boolean> cir) {
-		if (code == RemapF3.DEBUG_KEY_CODE)
-			cir.setReturnValue(RemapF3.debugKeyPressed);
+		if (RemapF3.FAKE_CODE_TO_BIND.containsKey(code))
+			cir.setReturnValue(RemapF3.FAKE_CODE_TO_BIND.get(code).isPressed());
 	}
 }
