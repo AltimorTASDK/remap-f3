@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "remap-f3",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Remap F3",
+  "description": "Allows changing the debug key",
   "authors": [
-    "Me!"
+    "Altimor"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/AltimorTASDK/remap-f3"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL3",
+  "icon": "assets/remap-f3/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "net.altimor.remapf3.RemapF3"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "remap-f3.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.17",
     "fabric-api": "*",
+    "fabric-key-binding-api-v1": "*",
     "minecraft": "~1.19.4",
     "java": ">=17"
   },
